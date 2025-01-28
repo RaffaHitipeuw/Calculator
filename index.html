@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    
+    <main>
+
+        <div class="background">
+            <div class="top">
+                <h1 id="resultt">0</h1>  
+            </div>
+            <div class="bottom">
+                <div class="bottomleft">
+                    <div class="bottomtopper">
+                        <div class="allclear" id="allclear">
+                            <button onclick="allclear()">
+                                <h1>AC</h1>
+                            </button>
+
+                        </div>
+                        <div class="plusminus" id="plusminus">
+                            <button onclick="plusminus()">
+                                <h1>±</h1>
+                            </button>
+                        </div>
+                        <div class="percent" id="percent">
+                            <button onclick="percent()">
+                                <h1>%</h1>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="onetothree">
+                        <div class="one" id="one">
+                            <button onclick="one()">
+                                <h1>1</h1>
+                            </button>
+                        </div>
+                        <div class="two" id="two">
+                            <button onclick="two()">
+                                <h1>2</h1>
+                            </button>
+                        </div>
+                        <div class="three" id="three">
+                            <button onclick="three()">
+                                <h1>3</h1>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="fourtosix">
+                        <div class="four" id="four">
+                            <button onclick="four()">
+                                <h1>4</h1>
+                            </button>
+
+                        </div>
+                        <div class="five" id="five">
+
+                            <button onclick="five()">
+                                <h1>5</h1>
+                            </button>
+                        </div>
+                        <div class="six" id="six">
+
+                            <button onclick="six()">
+                                <h1>6</h1>
+                            </button>
+                        </div>     
+                    </div>
+                    <div class="seventonine">
+                        <div class="seven" id="seven">
+                            <button onclick="seven()">
+                                <h1>7</h1>
+                            </button>
+                        </div>
+                        <div class="eight" id="eight">
+
+                            <button onclick="eight()">
+                                <h1>8</h1>
+                            </button>
+                        </div>
+                        <div class="nine" id="nine">
+                            <button onclick="nine()">
+                                <h1>9</h1>
+                            </button>
+
+                        </div>  
+                    </div>
+                    <div class="pointtodoublezero">
+                        <div class="point" id="point">
+                            <button onclick="point()">
+                                <h1>.</h1>
+                            </button>
+                        </div>
+                        <div class="zero" id="zero">
+
+                            <button onclick="zero()">
+                                <h1>0</h1>
+                            </button>
+                        </div>
+                        <div class="doublezero" id="doublezero">
+
+                            <button onclick="doublezero()">
+                                <h1>00</h1>
+                            </button>
+                        </div>  
+                    </div>
+                   </div>
+               <div class="bottomright">
+                <div class="pembagiansampaisamadengan">
+                    <div class="pembagiansampaisamadenganshadow">
+                        <div class="bagi" id="bagi">
+                            <button id="bagi">
+                                <h1>÷</h1>
+                            </button>
+                        </div>
+                        <div class="kali" id="kali">
+                            <button onclick="kali()">
+                                <h1>x</h1>
+                            </button>  
+                        </div>
+                        <div class="kurang" id="kurang">
+                            <button onclick="kurang()">
+                                <h1>-</h1>
+                            </button>
+                        </div>
+                        <div class="tambah" id="tambah">
+                            <button onclick="tambah()">
+                                <h1>+</h1>
+                            </button>
+                        </div>
+                        <div class="samadengan" id="samadengan">
+                            <button onclick="samadengan()">
+                                <h1>=</h1>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+       <div class="pengahalang"> <p>32</p></div>
+    <script src="calculator.js"></script>
+</body> 
+</html>

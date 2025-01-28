@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.background {
+  background: rgb(55, 55, 55);
+  background: linear-gradient(
+    165deg,
+    rgba(55, 55, 55, 1) 0%,
+    rgba(37, 38, 40, 1) 23%,
+    rgba(0, 3, 9, 1) 100%
+  );
+
+  height: 758px;
+  width: 423px;
+  border-radius: 50px;
+}
+.top h1 {
+  color: white;
+  margin-top: 190px;
+  font-family: poppins;
+  text-align: right;
+  margin-right: 55px;
+  font-size: 34px;
+}
+.bottom {
+  background: rgb(66, 134, 155);
+  background: linear-gradient(
+    221deg,
+    rgba(66, 134, 155, 1) 2%,
+    rgba(42, 125, 161, 1) 28%,
+    rgba(34, 78, 145, 1) 65%,
+    rgba(0, 18, 63, 1) 100%
+  );
+
+  margin-top: 15px;
+  height: 470px;
+  width: 423px;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+/* Angka - Angka */
+.bottomtopper {
+  height: 70px;
+  width: 265px;
+  background-color: rgba(5, 5, 5, 0.3);
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  opacity: 90%;
+  display: flex;
+}
+.allclear h1 {
+  color: white;
+  font-family: poppins;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+.allclear button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.plusminus h1 {
+  color: white;
+  font-family: poppins;
+  margin-top: 14px;
+  margin-left: 50px;
+  /* margin-right: 100px; */
+}
+.plusminus button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.percent h1 {
+  color: white;
+  font-family: poppins;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+.percent button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.onetothree {
+  display: flex;
+}
+.one {
+  height: 70px;
+  width: 80px;
+  margin-top: 15px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 30px;
+}
+.one h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 33px;
+}
+.one button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.one :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.two {
+  height: 70px;
+  width: 80px;
+  margin-top: 15px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 14px;
+}
+.two :hover{
+  background-color: rgba(0,0,0,0.2);
+
+}
+.two h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+}
+.two button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.three {
+  height: 70px;
+  width: 80px;
+  margin-top: 15px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 12px;
+}
+.three h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+  background-color: none;
+}
+.three button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.three :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.fourtosix {
+  display: flex;
+}
+.four {
+  height: 70px;
+  width: 80px;
+  margin-top: 10px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 30px;
+}
+.four :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.four h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 28px;
+}
+.four button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.five {
+  height: 70px;
+  width: 80px;
+  margin-top: 10px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 12px;
+}
+.five :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.five h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+}
+.five button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.six {
+  height: 70px;
+  width: 80px;
+  margin-top: 10px;
+  background-color: rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+  padding-top: 14px;
+  margin-left: 12px;
+}
+.six :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.six h1 {
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+}
+.six button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+
+.seventonine {
+  display: flex;
+}
+.seven{
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 30px;
+}
+.seven :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.seven h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 30px;
+}
+.seven button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.eight{
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 12px;
+}
+.eight :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.eight h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 30px;
+}
+.eight button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.nine{
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 12px;
+}
+.nine :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.nine h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 30px;
+}
+.nine button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.pointtodoublezero{
+    display: flex;
+}
+.point{
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 30px;
+}
+.point :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.point h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 35px;
+}
+.point button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.zero{
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 12px;
+}
+.zero :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.zero h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 30px;
+}
+.zero button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 33px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+.doublezero {
+    height: 70px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgba(5, 5, 5, 0.3);
+    border-radius: 50px;
+    padding-top: 14px;
+    margin-left: 12px;
+}
+.doublezero :hover{
+  background-color: rgba(0,0,0,0.2);
+}
+.doublezero h1{
+    color: white;
+    font-family: poppins;
+    margin-left: 20px;
+}
+.doublezero button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+  padding-left: 2px;
+  padding-right: 22px;
+  padding-top: 22px;
+  padding-bottom: 62px;
+  height: 70px;
+  margin-top: -14px;
+  border-radius: 50px;
+}
+
+.pembagiansampaisamadengan{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.pembagiansampaisamadenganshadow{
+  background-color: rgba(5, 5, 5, 0.3);
+  height: 450px;
+  width: 80px;
+  border-radius: 50px;
+  opacity: 90%;
+}
+
+.bagi h1{
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+  padding-top: 35px;
+}
+.bagi button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.kali h1{
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+  padding-top: 40px;
+}
+.kali button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.kurang h1{
+  color: white;
+  font-family: poppins;
+  margin-left: 32px;
+  padding-top: 50px;
+}
+.kurang button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.tambah h1{
+  color: white;
+  font-family: poppins;
+  margin-left: 30px;
+  padding-top: 40px;
+}
+.tambah button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
+.samadengan h1{
+  color: white;
+  font-family: poppins;
+  margin-left: 29px;
+  padding-top: 40px;
+}
+.samadengan button{
+  border: none;
+  background-color: rgba(0,0,0,0.01);
+}
