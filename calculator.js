@@ -174,7 +174,7 @@ function samadengan() {
 
     let result = operand1 + operand2;
     console.log(result);
-    document.elem('resultt').innerHTML   = result;
+    document.getElementById('resultt').innerHTML= result;
 
     if (elem.includes("+")) {
         let parts = elem.trim().split('+');
@@ -184,7 +184,7 @@ function samadengan() {
 
     let result = operand1 + operand2;
     console.log(result);
-    document.elem('resultt').innerHTML   = result;
+    document.getElementById('resultt').innerHTML = result;
     } else if (elem.includes("-")) {
         let parts = elem.trim().split('-');
         console.log(parts);
@@ -194,7 +194,25 @@ function samadengan() {
         let result = operand1 - operand2;
         console.log(result);
         document.getElementById('resultt').innerHTML = result;
+
+    } else if (elem.includes("×")) {
+        let parts = elem.trim().split('×');
+        console.log(parts);
+        let operand1 = Number(parts[0]);
+        let operand2 = Number(parts[1]);
+    
+        let result = operand1 * operand2;
+        console.log(result);
+        document.getElementById('resultt').innerHTML = result;
+        
+    } else if (elem.includes("÷")) {
+        let parts = elem.trim().split('÷');
+        console.log(parts);
+        let operand1 = Number(parts[0]);
+        let operand2 = Number(parts[1]);
+    
+        let result = operand1 / operand2;
+        console.log(result);
+        document.getElementById('resultt').innerHTML = result;
     }
 }
-
-// Result
